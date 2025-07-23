@@ -40,6 +40,8 @@ project/
 - **Style tweaks:** Adjust CSS to fit your branding or color scheme.
 
 ## Screenshots
+<img width="829" height="669" alt="image" src="https://github.com/user-attachments/assets/6f3200bb-7a81-4dc4-ae6f-6f886086b04a" />
+
 
 Works well on both desktop and mobile devices due to viewport-based scaling and media queries.
 
