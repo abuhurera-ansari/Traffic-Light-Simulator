@@ -1,0 +1,90 @@
+#text {
+    font-size: 2vw;
+    color: #fff;
+    margin-bottom: 2vw;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.traffic-light {
+    background-color: #333;
+    padding: 2vw;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10vw;
+    min-width: 60px;
+    max-width: 95px;
+    box-sizing: border-box;
+}
+
+.light {
+    width: 4vw;
+    height: 4vw;
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 50px;
+    max-height: 50px;
+    margin: 1vw 0;
+    border-radius: 50%;
+    background-color: #555;
+    transition: background 0.3s;
+    box-sizing: border-box;
+}
+
+.red.active { background-color: red; }
+.yellow.active { background-color: yellow; }
+.green.active { background-color: green; }
+
+button {
+    margin: 1vw;
+    padding: 1vw;
+    font-size: 1vw;
+    min-width: 36px;
+    max-width: 70px;
+    border: none;
+    border-radius: 0.5vw;
+    background: #222;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.13);
+    transition: background 0.2s, color 0.2s;
+}
+button:active {
+    background: #444;
+}
+
+@media (max-width: 600px) {
+    .traffic-light {
+        width: 26vw;
+        min-width: 36px;
+        max-width: 68vw;
+        padding: 2.5vw;
+    }
+    .light {
+        width: 8vw;
+        height: 8vw;
+        min-width: 18px;
+        min-height: 18px;
+        max-width: 28px;
+        max-height: 28px;
+    }
+    button {
+        font-size: 3vw;
+        min-width: 30px;
+        max-width: 69vw;
+        padding: 1vw;
+    }
+}
