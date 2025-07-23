@@ -41,6 +41,10 @@ project/
 
 ## Screenshots
 <img width="829" height="669" alt="image" src="https://github.com/user-attachments/assets/6f3200bb-7a81-4dc4-ae6f-6f886086b04a" />
+<img width="503" height="761" alt="image" src="https://github.com/user-attachments/assets/e318a0b8-d4a9-436a-86fb-80b3387771d7" />
+<img width="257" height="679" alt="image" src="https://github.com/user-attachments/assets/db239f79-86fd-4422-9207-cb96c62df8f2" />
+
+
 
 
 Works well on both desktop and mobile devices due to viewport-based scaling and media queries.
